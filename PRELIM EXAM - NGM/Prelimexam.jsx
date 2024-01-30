@@ -2,14 +2,6 @@ import React from "react";
 import './prelim.css'
 
 function Tama(){
-    const styles = { 
-        div: {
-            backgroundColor: "#008000"
-        },
-        p: {
-            backgroundColor: "#FF0000"
-        }
-    }
     return (
         <div>
              <h1>Things to Bring</h1>
