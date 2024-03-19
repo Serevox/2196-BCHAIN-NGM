@@ -41,3 +41,5 @@ contract MyFinalsActivity2 {
         selfdestruct(owner);
     }
 }
+
+// This Solidity code facilitates ether transactions that allows ether reception, sending ether to specified recipients, and the destruction of the contract.
