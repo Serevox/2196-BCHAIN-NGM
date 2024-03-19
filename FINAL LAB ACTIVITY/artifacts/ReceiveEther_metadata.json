@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Noie/2_final2.sol": "ReceiveEther"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Noie/2_final2.sol": {
+			"keccak256": "0xd220b2b2647826ee150f9c174e8111af43b2744587c7d58b8e92b0864e49c89a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c7ca1ac5b998527dfd7cfddc29019c012ebe1c44cddf6ac921e89ea87bab2e0d",
+				"dweb:/ipfs/QmX9KGnvzSpw7fSSJQnXQGjZ1qF8VLSckdhzq9rPREx3y1"
+			]
+		}
+	},
+	"version": 1
+}
