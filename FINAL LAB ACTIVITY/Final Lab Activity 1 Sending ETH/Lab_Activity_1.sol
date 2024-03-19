@@ -20,3 +20,5 @@ contract EtherWallet {
         return address(this).balance;
     }
 }
+
+// This activity is a simple wallet functionality that allows user to withdraw their eth and check balance, it takes up an ether that was assigned bu the owner.
