@@ -37,9 +37,15 @@ contract MyFinalsActivity2 {
         emit EtherSent(recipient, amount);
     }
 
+    function receiveAndEmit() external payable {
+        emit EtherReceived(msg.sender, msg.value);
+        remainingEth += msg.value;
+    }
+
     function destroy() public onlyOwner {
         selfdestruct(owner);
     }
 }
+
 
 // This Solidity code facilitates ether transactions that allows ether reception, sending ether to specified recipients, and the destruction of the contract.
