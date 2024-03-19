@@ -16,3 +16,5 @@ contract Fallback {
         emit paymentReceived(msg.sender, msg.value);
     }
 }
+
+// This ia a fallback and receive function that the Solidity contract named `Fallback` logs payments received through its fallback and receive functions.
