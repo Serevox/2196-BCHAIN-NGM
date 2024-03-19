@@ -38,3 +38,5 @@ contract ReceiveEther {
         emit Log(msg.value, gasleft());
     }
 }
+
+// This Aciticity allows the facilitation of SeflDestruct to deposit, withdraw, and self destruct with the owner defined fallback, and the ReceiveEther logs the ether and remaining gas of the transaction.
